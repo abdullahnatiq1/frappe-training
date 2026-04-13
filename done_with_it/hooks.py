@@ -1,8 +1,8 @@
 app_name = "done_with_it"
 app_title = "testing"
 app_publisher = "me"
-app_description = "this is a testing app "
-app_email = "abdullahnatiq8765@gmail.com"
+app_description = "this is a testing bench"
+app_email = "abdullahnatiq@gmail.com"
 app_license = "mit"
 
 # Apps
