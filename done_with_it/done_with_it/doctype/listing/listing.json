@@ -16,7 +16,9 @@
   "description",
   "route",
   "interests_section",
-  "shown_interests"
+  "shown_interests",
+  "section_break_adfq",
+  "totals"
  ],
  "fields": [
   {
@@ -84,6 +86,15 @@
    "fieldtype": "Table",
    "label": "Shown Interests",
    "options": "Listing Request"
+  },
+  {
+   "fieldname": "section_break_adfq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "totals",
+   "fieldtype": "Currency",
+   "label": "Totals"
   }
  ],
  "grid_page_length": 50,
@@ -91,7 +102,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2026-04-15 11:26:27.833339",
+ "modified": "2026-04-15 14:36:36.150914",
  "modified_by": "a@gmail.com",
  "module": "Done With it",
  "name": "listing",
