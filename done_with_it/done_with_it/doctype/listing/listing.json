@@ -11,8 +11,12 @@
   "column_break_k4zn",
   "price",
   "image",
+  "is_published",
   "section_break_uctq",
-  "description"
+  "description",
+  "route",
+  "interests_section",
+  "shown_interests"
  ],
  "fields": [
   {
@@ -58,12 +62,36 @@
    "fieldname": "section_break_uctq",
    "fieldtype": "Section Break",
    "label": "Listing Description"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  },
+  {
+   "fieldname": "interests_section",
+   "fieldtype": "Section Break",
+   "label": "Interests"
+  },
+  {
+   "fieldname": "shown_interests",
+   "fieldtype": "Table",
+   "label": "Shown Interests",
+   "options": "Listing Request"
   }
  ],
  "grid_page_length": 50,
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
  "links": [],
- "modified": "2026-04-14 12:19:38.858277",
+ "modified": "2026-04-15 11:26:27.833339",
  "modified_by": "a@gmail.com",
  "module": "Done With it",
  "name": "listing",
@@ -83,6 +111,7 @@
    "write": 1
   }
  ],
+ "route": "listings",
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
  "sort_field": "modified",
