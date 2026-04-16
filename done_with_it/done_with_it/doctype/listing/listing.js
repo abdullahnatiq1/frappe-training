@@ -35,7 +35,6 @@ frappe.ui.form.on("listing", {
 
         frm.set_value("totals", total_offers_value);
         frm.refresh();
-
     }
 });
 
